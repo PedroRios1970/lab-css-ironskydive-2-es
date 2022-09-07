@@ -1,14 +1,21 @@
-html,
+/*Notas Personales
+ para facilitarme el codigo he convertido los rgb a hex
+ 
+ azul         67.163.230 = #43a3e6
+ azul Oscuro  25.33.41   = #192129
+ Texto         0.0.0     = #000000 
+ */
+
+*,
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Roboto;
     font-size: 10px;
     line-height: 3.5em;
     font-weight: 300;
 }
-
-
 
 h1,
 h2,
@@ -16,9 +23,9 @@ h3,
 h4,
 h5,
 h6 {
-   /* font-family: 'Roboto Condensed';*/
+    font-family: "Roboto";
+    font-stretch: condensed;
 }
-
 
 h1 {
     font-size: 9em;
@@ -52,7 +59,12 @@ h5 {
 }
 
 .nav-bar {
-    background-color: #ffffff;
+    background-color: #192129;
+    padding: 14px 0;
+}
+
+.nav-bar a {
+    color: #ffffff;
     text-decoration: none;
     font-size: 2em;
 }
@@ -63,9 +75,70 @@ h5 {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
 }
 
-.quote {
-    font-size: 2.5em;
+.quote p,
+.quote p i {
+    font-size: 20px;
+}
+
+.dark-backgrund {
+    background-color: #192129;
+    color: #ffffff;
+    /* text-align: center; */
+}
+
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn {
+    background-color: #43a3e6;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+#equipo .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#equipo .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#equipo img {
+    width: 200px;
+    height: 180px;
+}
+
+.footer {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.address {
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+.footer a {
+    color: #43a3e6;
+    text-decoration: none;
 }
